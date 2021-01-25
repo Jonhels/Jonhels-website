@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.light-mode {
+    background-color: #fff;
+    color: #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dark-mode {
+    background-color: #1E1E1E;
+    color: #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.light-mode nav, .dark-mode nav, .dark-mode, .light-mode {
+    transition: background-color 0.5s ease-out;
 }
 
-.App-link {
-  color: #61dafb;
+nav {
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.toggle {
+    position: relative;
+    padding: 0 4px;
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"].checkbox {
+    width: 47px;
+    height: 22px;
+    background: #FFF1F9;
+    position: relative;
+    border-radius: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    vertical-align: 2px;
+    outline: none;
+}
+
+input[type="checkbox"].checkbox:checked+label {
+    left: 27px;
+    height: 22px;
+    width: 22px;
+    background-image: url(./Moon.svg);
+    background-size: 12px;
+    transition: 0.10s ease-in;
+    background-position: center;
+}
+
+input[type="checkbox"].checkbox+label {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    left: 6px;
+    background-color: #ffcdea;
+    background-image: url(./Sun.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 18px;
+    transition: 0.10s ease-in;
+}
+
+.toggle-container {
+    display: flex;
+    margin: 0 auto;
+}
+
+.toggle-container>span {
+    font-size: 1.2em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    margin-top: 4px;
+    margin-right: 2px;
+}
+
+.toggle-container>span:last-child {
+    margin-top: 5px;
 }
