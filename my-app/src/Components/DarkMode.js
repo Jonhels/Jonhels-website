@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import ReactDOM from 'react-dom';
 import './DarkMode.css';
 
 const DarkMode = () => {
@@ -9,9 +8,11 @@ const DarkMode = () => {
     const darkMode = "dark"
     let mode;
 
-    if (localStorage) {
-        mode = localStorage.getItem("mode");
-    }
+  //  if (localStorage) {
+  //      mode = localStorage.getItem("mode");
+  //  } 
+
+  //localstorage må huske hvilken retning knappen er i
 
     if (mode === lightMode || mode === darkMode) {
         body.classList.add(mode);
@@ -22,23 +23,27 @@ const DarkMode = () => {
     const switchMode = (e) => {
         if (mode === darkMode) {
             body.classList.replace(darkMode, lightMode);
-            //e.target.classList.remove(clickedClass);
+            e.target.classList.remove(clickedClass);
             localStorage.setItem("mode", "light");
             mode = lightMode;
             console.log('if')
         } else {
             body.classList.replace(lightMode, darkMode);
-            //e.target.classList.add(clickedClass);
+            e.target.classList.add(clickedClass);
             localStorage.setItem("mode", "dark");
             mode = darkMode;
             console.log('else')
         }
     };
+    
+    
+ 
 
    return (
         <div className="toggle-container">
             <span className="toggle">
                 <input
+                    //Her er problemee
                     onChange={(e) => switchMode(e)}
                     type="checkbox"
                     className="checkbox"

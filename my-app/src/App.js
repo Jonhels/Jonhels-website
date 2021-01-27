@@ -11,16 +11,16 @@ function App() {
     <Router>
     
       <div className="App">
-         
+         <Nav></Nav>
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/about" component={About} />
             <Route path="/shop" exact component={Shop} />
           </Switch>
-    
+          
       </div>
       <div>
-        <DarkMode></DarkMode>
+        
       </div>
     </Router>
   );
