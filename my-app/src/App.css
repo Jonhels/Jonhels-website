@@ -84,3 +84,9 @@ a:after {
     padding: 0 10px 0 0;
     color: #696969;
 }
+
+.Home h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}

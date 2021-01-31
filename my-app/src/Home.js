@@ -1,10 +1,12 @@
 import react from 'react';
 import './App.css';
+import Slider from './Components/Slider';
+
 function Home() {
   return (
-    <div>
+    <div className="Home">
         <h1>Home</h1>
-        <p>hghjhjghjhjg</p>
+        <Slider></Slider>
     </div>
   );
 }

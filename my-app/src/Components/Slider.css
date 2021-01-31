@@ -1,0 +1,12 @@
+.Slider {
+    position: relative;
+    height: 60vh;
+    width: 87.7vw;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: red;
+}
+
+.SliderContent {
+    transform: translate(X);
+}
