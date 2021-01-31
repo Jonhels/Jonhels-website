@@ -1,12 +1,12 @@
 import react from 'react';
 import './App.css';
-
-function About() {
+function Emotes() {
   return (
     <div>
-        <h1>About Page</h1>
+        <h1>Emote page</h1>
     </div>
   );
 }
 
-export default About;
+
+export default Emotes;

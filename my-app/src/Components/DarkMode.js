@@ -35,9 +35,6 @@ const DarkMode = () => {
             console.log('else')
         }
     };
-    
-    
- 
 
    return (
         <div className="toggle-container">

@@ -7,16 +7,25 @@ import DarkMode from './Components/DarkMode';
 function Nav() {
 
     return (
-        <div>
+        <div className="Navigation-holder">
             <nav>
                 <h3>Logo</h3>
                 <DarkMode></DarkMode>
                 <ul className="nav-links">
-                    <Link to="/about">
-                        <li>About</li>
+                <Link id="Link-1" to="/">
+                        <li>Home</li>
                     </Link>
-                    <Link to="/shop">
-                        <li>Shop</li>
+                    <Link id="Link-2" to="/Emotes">
+                        <li>Emotes</li>
+                    </Link>
+                    <Link id="Link-3" to="/Panels">
+                        <li>Panels</li>
+                    </Link>
+                    <Link  id="Link-4"to="/Illustrations">
+                        <li>Illustrations</li>
+                    </Link>
+                    <Link id="Link-5" to="/Prices">
+                        <li>Prices</li>
                     </Link>
                 </ul>
             </nav>

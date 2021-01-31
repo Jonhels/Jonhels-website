@@ -14,12 +14,73 @@ body.light {
     Color: #000000
 }
 
+
 .light-mode nav, .dark-mode nav, .dark-mode, .light-mode {
     transition: background-color 0.5s ease-out;
 }
 
 nav {
+    align-items: center;
     width: 100%;
     display: flex;
-    padding: 50px 0;
+    padding: 8vh 6vw;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+a {
+    color: #ffcdea;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+}
+
+a:after {
+    content:'';
+    display:inline-block;
+    width:0;
+    height:1px;
+    background:#ffcdea;
+    position: absolute;
+    left: 0px;
+    bottom:0px;
+    transition:0.2s ease-in;
+}
+
+
+
+#Link-1:hover:after{
+    width: 46px;
+    left: 0;
+    
+}
+
+#Link-2:hover:after{
+    width: 58px;
+    left: 0;
+    
+}
+
+#Link-3:hover:after{
+    width: 54px;
+    left: 0;
+}
+
+#Link-4:hover:after{
+    width: 110px;
+    left: 0;
+}
+
+#Link-5:hover:after{
+    width: 49px;
+    left: 0;
+}
+
+.nav-links li {
+    padding: 0 10px 0 0;
+    color: #696969;
 }
