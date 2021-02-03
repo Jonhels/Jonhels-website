@@ -85,8 +85,13 @@ a:after {
     color: #696969;
 }
 
-.Home h1 {
+.Home {
+    justify-content: center;
+    overflow: hidden;
+}
+
+.Header-h1 {
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
+    padding-bottom: 20px;
 }

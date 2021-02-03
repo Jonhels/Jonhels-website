@@ -1,10 +1,9 @@
-import react from 'react';
+import React from 'react';
 import './App.css';
 function Prices() {
   return (
-    <div>
+    <div className="Header-h1">
         <h1>Prices</h1>
-        <p>hghjhjghjhjg</p>
     </div>
   );
 }
