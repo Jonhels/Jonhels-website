@@ -32,14 +32,14 @@ nav {
     list-style: none;
 }
 
-a {
+.nav-links a {
     color: #ffcdea;
     text-transform: uppercase;
     text-decoration: none;
     position: relative;
 }
 
-a:after {
+.nav-links a:after {
     content:'';
     display:inline-block;
     width:0;
@@ -88,10 +88,78 @@ a:after {
 .Slider-div {
     justify-content: center;
     overflow: hidden;
+    margin-bottom: 50px;
 }
 
 .Header-h1 {
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
+}
+
+.home-context {
+    display: flex;
+    justify-content: center;
+    margin-bottom:50px;
+}
+
+.information {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.information a {
+    border: 1px solid #ffcdea;
+    border-radius: 5px 5px;
+    color: #ffcdea;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    margin-top: 30px;
+    font-size: 1.3em;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Content {
+    display: flex;
+    border-top: 1px solid #ffcdea;
+    border-bottom: 1px solid #ffcdea;
+    width: 80vw;
+    height: auto;
+    padding: 60px 0 60px 0;
+    margin-bottom: 50px;
+}
+
+.Emotes-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 50%;
+    border-right: 1px solid #ffcdea;  
+}
+
+.holder-content {
+    width: 50%;
+}
+
+.img-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 50%;
+}
+
+.cat-back {
+    width: 400px;
 }
