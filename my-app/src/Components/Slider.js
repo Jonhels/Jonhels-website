@@ -88,7 +88,7 @@ export default Slider;
  * Should accomodate longer swipes and short flicks without having binary checks on
  * just distance thresholds and velocity > 0.
  */
-const swipeConfidenceThreshold = 10000;
+const swipeConfidenceThreshold = 1000;
 const swipePower = (offset, velocity) => {
     return Math.abs(offset) * velocity;
 };
