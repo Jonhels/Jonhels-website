@@ -10,7 +10,7 @@ body.dark {
 }
 
 body.light {
-    background-color: #FFFFFF;
+    background-color: #fdfdfd;
     Color: #000000
 }
 
@@ -194,4 +194,8 @@ nav {
     display: flex;
     justify-content: center;
     font-size: 0.8em;
+}
+
+.trademark a {
+    color: #696969;
 }
