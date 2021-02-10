@@ -21,6 +21,9 @@ function Nav() {
                     <Link id="Link-3" to="/Panels">
                         <li>Panels</li>
                     </Link>
+                    <Link id="Link-3" to="/Badges">
+                        <li>Badges</li>
+                    </Link>
                     <Link  id="Link-4"to="/Illustrations">
                         <li>Illustrations</li>
                     </Link>
