@@ -61,7 +61,8 @@ input[type="checkbox"].checkbox+label {
     cursor: pointer;
     transition: color 0.3s ease;
     margin-top: 4px;
-    margin-right: 2px;
+    margin-right: 1px;
+    margin-bottom: 1px;
 }
 
 .toggle-container>span:last-child {

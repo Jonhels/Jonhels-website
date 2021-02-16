@@ -13,11 +13,13 @@ function Nav() {
                 <div className="logo">
                     <span className="logo-top">
                         Artist
-                </span>
+                    </span>
                     <br />
-                    <span className="logo-bottom">
-                        Logo
-                </span>
+                    <Link to="/">
+                        <span className="logo-bottom">
+                            Logo
+                        </span>
+                    </Link>
                 </div>
                 <DarkMode></DarkMode>
                 <ul className="nav-links">

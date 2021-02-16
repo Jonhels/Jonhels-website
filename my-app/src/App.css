@@ -21,6 +21,9 @@ nav {
     padding: 8vh 6vw;
 }
 
+.logo a {
+    text-decoration: none;
+}
 
 .logo-top, .logo-bottom, h1 {
     text-transform: uppercase;
