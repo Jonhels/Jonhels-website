@@ -29,12 +29,18 @@ function Prices() {
             </div>
           </div>
           <div className="img-holder">
-            <img className="cat-back" src={cat} alt="Cat-back" />
+            <div className="holder-content">
+              <h1>Panels</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam praesentium eos dignissimos? Fuga commodi esse debitis, quam beatae est impedit quae ab rerum sapiente dolorum autem qui eveniet sint obcaecati?</p>
+            </div>
           </div>
         </div>
         <div className="Content-2">
           <div className="Emotes-holder">
-            <img className="cat-back" src={cattummy} alt="Cat-back" />
+            <div className="holder-content">
+              <h1>Badges</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam praesentium eos dignissimos? Fuga commodi esse debitis, quam beatae est impedit quae ab rerum sapiente dolorum autem qui eveniet sint obcaecati?</p>
+            </div>
           </div>
           <div className="img-holder">
             <div className="holder-content">

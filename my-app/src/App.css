@@ -21,6 +21,21 @@ nav {
     padding: 8vh 6vw;
 }
 
+
+.logo-top, .logo-bottom, h1 {
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.logo-top {
+    font-size: 26px;
+}
+
+.logo-bottom {
+    color: #ffcdea;
+    font-size: 20px;
+}
+
 .nav-links {
     display: flex;
     justify-content: space-between;
@@ -46,31 +61,36 @@ nav {
     transition: 0.2s ease-in;
 }
 
-#Link-1:hover:after {
+.Link-1:hover:after {
     width: 46px;
     left: 0;
 }
 
-#Link-2:hover:after {
+
+.Link-2:hover:after {
     width: 58px;
     left: 0;
 }
 
-#Link-3:hover:after {
+.Link-3:hover:after {
     width: 54px;
     left: 0;
 }
 
-#Link-4:hover:after {
+.Link-5:hover:after {
     width: 110px;
     left: 0;
 }
 
-#Link-5:hover:after {
+.Link-6:hover:after {
     width: 49px;
     left: 0;
 }
 
+.Link-4:hover:after {
+    width: 58px;
+    left: 0;
+}
 .nav-links li {
     padding: 0 10px 0 0;
     color: #696969;
@@ -187,7 +207,7 @@ nav {
 }
 
 .Socials img {
-    height: 20px;
+    height: 22px;
 }
 
 .trademark {

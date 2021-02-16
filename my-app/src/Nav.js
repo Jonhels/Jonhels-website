@@ -1,33 +1,42 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './App.css';
 import { Link } from 'react-router-dom';
 import DarkMode from './Components/DarkMode';
+
+
 
 function Nav() {
 
     return (
         <div className="Navigation-holder">
             <nav>
-                <h3>Logo</h3>
+                <div className="logo">
+                    <span className="logo-top">
+                        Artist
+                </span>
+                    <br />
+                    <span className="logo-bottom">
+                        Logo
+                </span>
+                </div>
                 <DarkMode></DarkMode>
                 <ul className="nav-links">
-                <Link id="Link-1" to="/">
+                    <Link className="Link-1" to="/">
                         <li>Home</li>
                     </Link>
-                    <Link id="Link-2" to="/Emotes">
+                    <Link className="Link-2" to="/Emotes">
                         <li>Emotes</li>
                     </Link>
-                    <Link id="Link-3" to="/Panels">
+                    <Link className="Link-3" to="/Panels">
                         <li>Panels</li>
                     </Link>
-                    <Link id="Link-3" to="/Badges">
+                    <Link className="Link-4" to="/Badges">
                         <li>Badges</li>
                     </Link>
-                    <Link  id="Link-4"to="/Illustrations">
+                    <Link className="Link-5" to="/Illustrations">
                         <li>Illustrations</li>
                     </Link>
-                    <Link id="Link-5" to="/Prices">
+                    <Link className="Link-6" to="/Prices">
                         <li>Prices</li>
                     </Link>
                 </ul>
