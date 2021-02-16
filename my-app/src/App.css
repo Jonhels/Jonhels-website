@@ -69,7 +69,6 @@ nav {
     left: 0;
 }
 
-
 .Link-2:hover:after {
     width: 58px;
     left: 0;
@@ -94,6 +93,7 @@ nav {
     width: 58px;
     left: 0;
 }
+
 .nav-links li {
     padding: 0 10px 0 0;
     color: #696969;
@@ -188,7 +188,6 @@ nav {
     width: 400px;
 }
 
-
 .contact {
     height: 55px;
     width: 100%;
@@ -199,7 +198,7 @@ nav {
     width: 98vw;
     height: 25px;
     display: flex;
-    justify-content: center;    
+    justify-content: center;
 }
 
 .Socials ul {
@@ -233,4 +232,8 @@ nav {
 
 .Emotes-img img {
     width: 400px;
+}
+
+.h1-headers {
+    font-size: 1.7em;
 }

@@ -24,7 +24,7 @@ function Panels() {
         <div className="Content">
           <div className="Emotes-holder">
             <div className="holder-content">
-              <h1>Wolf</h1>
+              <h1 className="h1-headers">Wolf</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam praesentium eos dignissimos? Fuga commodi esse debitis, quam beatae est impedit quae ab rerum sapiente dolorum autem qui eveniet sint obcaecati?</p>
             </div>
           </div>

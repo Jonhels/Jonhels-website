@@ -26,7 +26,7 @@ function Home() {
         <div className="Content">
           <div className="Emotes-holder">
             <div className="holder-content">
-              <h1>Emotes</h1>
+              <h1 className="h1-headers">Emotes</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam praesentium eos dignissimos? Fuga commodi esse debitis, quam beatae est impedit quae ab rerum sapiente dolorum autem qui eveniet sint obcaecati?</p>
             </div>
           </div>
@@ -40,7 +40,7 @@ function Home() {
           </div>
           <div className="img-holder">
             <div className="holder-content">
-              <h1>Badges</h1>
+              <h1 className="h1-headers">Badges</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam praesentium eos dignissimos? Fuga commodi esse debitis, quam beatae est impedit quae ab rerum sapiente dolorum autem qui eveniet sint obcaecati?</p>
             </div>
           </div>
@@ -48,7 +48,7 @@ function Home() {
         <div className="Content-2">
           <div className="Emotes-holder">
             <div className="holder-content">
-              <h1>Panels</h1>
+              <h1 className="h1-headers">Panels</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam praesentium eos dignissimos? Fuga commodi esse debitis, quam beatae est impedit quae ab rerum sapiente dolorum autem qui eveniet sint obcaecati?</p>
             </div>
           </div>
@@ -62,7 +62,7 @@ function Home() {
           </div>
           <div className="img-holder">
             <div className="holder-content">
-              <h1>Illustrations</h1>
+              <h1 className="h1-headers">Illustrations</h1>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam praesentium eos dignissimos? Fuga commodi esse debitis, quam beatae est impedit quae ab rerum sapiente dolorum autem qui eveniet sint obcaecati?</p>
             </div>
           </div>
