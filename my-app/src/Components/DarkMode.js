@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './DarkMode.css';
 
+
 const DarkMode = () => {
     let clickedClass = "clicked"
     const body = document.body;
