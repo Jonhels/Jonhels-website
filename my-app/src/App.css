@@ -270,16 +270,47 @@ body::-webkit-scrollbar-thumb {
     .cat-illu {
         width: 380px;
     }
+    .holder-content {
+        width: 55%;
+    }
 }
 
 @media (max-width: 1366.98px) {
     .cat-illu {
         width: 360px;
     }
+    .holder-content {
+        width: 60%;
+    }
 }
 
 @media (max-width: 1280.98px) {
     .cat-illu {
         width: 340px;
+    }
+    .holder-content {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1024.98px) {
+    nav {
+        padding: 8vh 6vw 4vh 6vw;
+    }
+    .Slider-div {
+        margin-bottom: 40px;
+    }
+    .information {
+        width: 60%;
+    }
+    .Content, .Content-2 {
+        width: 75vw;
+        padding: 60px 0 60px 0;
+    }
+    .cat-illu {
+        width: 340px;
+    }
+    .Socials ul {
+        width: 8vw;
     }
 }

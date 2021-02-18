@@ -97,3 +97,11 @@ input[type="checkbox"].checkbox+label {
         padding-left: 28.5vw;
     }
 }
+
+@media (max-width: 1024.98px) {
+    .toggle-container {
+        position: relative;
+        left: 3.5vw;
+        bottom: 5vh;
+    }
+}

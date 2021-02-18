@@ -33,3 +33,13 @@ img {
     cursor: pointer;
     z-index: 2;
 }
+
+@media (max-width: 1024.98px) {
+    .Slider {
+        width: 95vw;
+        height: 32vh;
+    }
+    img {
+        max-width: 65vw;
+    }
+}
