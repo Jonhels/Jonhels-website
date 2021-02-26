@@ -43,3 +43,9 @@ img {
         max-width: 65vw;
     }
 }
+
+@media (max-width: 834.98px) {
+    .Slider {
+        width: 97vw;
+    }
+}

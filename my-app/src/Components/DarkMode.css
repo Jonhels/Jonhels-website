@@ -101,7 +101,15 @@ input[type="checkbox"].checkbox+label {
 @media (max-width: 1024.98px) {
     .toggle-container {
         position: relative;
-        left: 3.5vw;
+        left: 3.2vw;
+        bottom: 5vh;
+    }
+}
+
+@media (max-width: 834.98px) {
+    .toggle-container {
+        position: relative;
+        left: 2.6vw;
         bottom: 5vh;
     }
 }

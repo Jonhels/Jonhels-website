@@ -314,3 +314,32 @@ body::-webkit-scrollbar-thumb {
         width: 8vw;
     }
 }
+
+@media (max-width: 834.98px) {
+    nav ul {
+        position: relative;
+        right: 70px;
+    }
+    .Slider-div {
+        margin-bottom: 35px;
+    }
+    .information {
+        width: 65%;
+    }
+    .Content, .Content-2 {
+        width: 78vw;
+        padding: 60px 0 60px 0;
+    }
+    .holder-content {
+        width: 70%;
+    }
+    .cat-illu {
+        width: 290px;
+    }
+    .Socials {
+        width: 97.2vw;
+    }
+    .Socials ul {
+        width: 9.5vw;
+    }
+}
