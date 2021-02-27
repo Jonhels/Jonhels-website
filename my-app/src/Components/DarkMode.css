@@ -113,3 +113,11 @@ input[type="checkbox"].checkbox+label {
         bottom: 5vh;
     }
 }
+
+@media (max-width: 768.98px) {
+    .toggle-container {
+        position: relative;
+        left: 1.5vw;
+        bottom: 5vh;
+    }
+}

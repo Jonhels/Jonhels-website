@@ -49,3 +49,12 @@ img {
         width: 97vw;
     }
 }
+
+@media (max-width: 768.98px) {
+    .Slider {
+        width: 100vw;
+    }
+    img {
+        max-width: 69vw;
+    }
+}
