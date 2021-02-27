@@ -343,3 +343,22 @@ body::-webkit-scrollbar-thumb {
         width: 9.5vw;
     }
 }
+
+@media (max-width: 810.98px) {
+    nav ul {
+        position: relative;
+        right: 79px;
+    }
+    .holder-content {
+        width: 72%;
+    }
+    .cat-illu {
+        width: 290px;
+    }
+    .Socials {
+        width: 97.2vw;
+    }
+    .Socials ul {
+        width: 9.5vw;
+    }
+}
