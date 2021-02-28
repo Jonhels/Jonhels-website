@@ -58,3 +58,15 @@ img {
         max-width: 69vw;
     }
 }
+
+@media (max-width: 480.98px) {
+    .Right {
+        right: 1vw;
+    }
+    .Left {
+        left: 1vw;
+    }
+    img {
+        max-width: 80vw;
+    }
+}

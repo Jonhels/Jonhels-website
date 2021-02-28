@@ -386,5 +386,45 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 480.98px) {
-    
+    nav ul {
+        position: relative;
+        right: 240px;
+        bottom: 60px;
+    }
+    .Content, .Content-2 {
+        display: flex;
+        padding: 0 0 0 0;
+    }
+    .Content, .Content-2 {
+        width: 85vw;
+    }
+    .Content {
+        flex-direction: column-reverse;
+    }
+    .Content-2 {
+        flex-direction: column;
+    }
+    .Emotes-holder {
+        border: none;
+        width: 100%;
+        padding: 0 0 0 0;
+        height: 200px;
+        margin-top: 50px;
+    }
+    .holder-content, .img-holder {
+        width: 97%;
+    }
+    .img-holder {
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .cat-illu {
+        width: 385px;
+    }
+    .Socials {
+        width: 95vw;
+    }
+    .Socials ul {
+        width: 16vw;
+    }
 }
