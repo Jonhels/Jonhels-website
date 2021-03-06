@@ -61,12 +61,12 @@ img {
 
 @media (max-width: 480.98px) {
     .Right {
-        right: 1vw;
+        right: 0.5vw;
     }
     .Left {
-        left: 1vw;
+        left: 0.5vw;
     }
     img {
-        max-width: 80vw;
+        max-width: 84vw;
     }
 }

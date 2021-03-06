@@ -34,7 +34,7 @@ function Home() {
             <img className="cat-back" src={cat} alt="Cat-back" />
           </div>
         </div>
-        <div className="Content-2">
+        <div className="Content-2 badges-mobile">
           <div className="Emotes-holder">
             <img className="cat-back" src={cattummy} alt="Cat-back" />
           </div>
@@ -45,7 +45,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="Content-2">
+        <div className="Content-2 panels-mobile">
           <div className="Emotes-holder">
             <div className="holder-content">
               <h1 className="h1-headers">Panels</h1>
@@ -56,7 +56,7 @@ function Home() {
             <img className="cat-back" src={cat} alt="Cat-back" />
           </div>
         </div>
-        <div className="Content-2">
+        <div className="Content-2 illu-mobile">
           <div className="Emotes-holder">
             <img className="cat-illu" src={catillu} alt="Cat-back" />
           </div>

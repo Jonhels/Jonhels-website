@@ -391,6 +391,25 @@ body::-webkit-scrollbar-thumb {
         right: 240px;
         bottom: 60px;
     }
+    .Header-h1{
+        padding-bottom: 10px;
+    }
+    .Slider-div {
+        margin-bottom: 20px;
+    }
+    .home-context {
+        margin-bottom: 40px;
+    }
+    .Emotes-img{
+        height: 300px;
+        margin: 10px 0 10px 0;
+    }
+    .Emotes-img img{
+        width: 300px;
+    }
+    .information {
+        width: 85%;
+    }
     .Content, .Content-2 {
         display: flex;
         padding: 0 0 0 0;
@@ -400,26 +419,47 @@ body::-webkit-scrollbar-thumb {
     }
     .Content {
         flex-direction: column-reverse;
+        padding-top: 30px;
+        padding-bottom: 5px;
     }
     .Content-2 {
         flex-direction: column;
+        padding-top: 35px;
+        padding-bottom: 5px;
+    }
+    .panels-mobile {
+        flex-direction: column-reverse;
     }
     .Emotes-holder {
         border: none;
         width: 100%;
-        padding: 0 0 0 0;
-        height: 200px;
-        margin-top: 50px;
-    }
-    .holder-content, .img-holder {
-        width: 97%;
+        height: 190px;
     }
     .img-holder {
-        height: 200px;
-        margin-bottom: 10px;
+        height: 190px;
+        width: 100%;
+    }
+    .badges-mobile .Emotes-holder {
+        height: 220px;
+        padding-top: 20px;
+    }
+    .panels-mobile .Emotes-holder {
+        height: 180px;
+    }
+    .illu-mobile .Emotes-holder {
+        height: 227.78px;
+    }
+    .cat-back {
+        width: 250px;
+    }
+    .holder-content {
+        width: 97%;
     }
     .cat-illu {
         width: 385px;
+    }
+    .contact {
+        margin-top: 30px;
     }
     .Socials {
         width: 95vw;
