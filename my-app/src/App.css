@@ -386,10 +386,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 480.98px) {
+    nav {
+        padding: 4vh 6vw 9vh 6vw;
+    }
+
     nav ul {
         position: relative;
         right: 240px;
-        bottom: 60px;
+        top: 65px;
     }
     .Header-h1{
         padding-bottom: 10px;
@@ -465,6 +469,6 @@ body::-webkit-scrollbar-thumb {
         width: 95vw;
     }
     .Socials ul {
-        width: 16vw;
+        width: 17vw;
     }
 }
