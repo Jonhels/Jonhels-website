@@ -405,11 +405,11 @@ body::-webkit-scrollbar-thumb {
         margin-bottom: 40px;
     }
     .Emotes-img{
-        height: 300px;
+        height: 250px;
         margin: 10px 0 10px 0;
     }
     .Emotes-img img{
-        width: 300px;
+        width: 250px;
     }
     .information {
         width: 85%;
@@ -458,6 +458,13 @@ body::-webkit-scrollbar-thumb {
     }
     .holder-content {
         width: 97%;
+    }
+    .prices-content .Content{
+        border-bottom: none;
+        padding-bottom: 0px;
+    }
+    .prices-content .Content-2{
+        padding-top: 0px;
     }
     .cat-illu {
         width: 385px;

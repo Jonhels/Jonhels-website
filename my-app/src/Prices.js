@@ -20,7 +20,7 @@ function Prices() {
         </div>
       </div>
       <h1 className="Header-h1">Products</h1>
-      <div className="wrapper">
+      <div className="wrapper prices-content">
         <div className="Content">
           <div className="Emotes-holder">
             <div className="holder-content">
