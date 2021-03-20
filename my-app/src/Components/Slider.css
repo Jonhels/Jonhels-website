@@ -70,3 +70,24 @@ img {
         max-width: 84vw;
     }
 }
+
+@media (max-width: 414.98px) {
+    .Right, .Left {
+        top: 33.5vh;
+    }
+
+    .Right {
+        left: 51vw;
+    }
+
+    .Left {
+        left: 40vw;
+    }
+
+    img {
+        max-width: 95vw;
+    }
+    .Slider {
+        margin-bottom: 60px;
+    }
+}

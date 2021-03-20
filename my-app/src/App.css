@@ -389,13 +389,12 @@ body::-webkit-scrollbar-thumb {
     nav {
         padding: 4vh 6vw 9vh 6vw;
     }
-
     nav ul {
         position: relative;
         right: 240px;
         top: 65px;
     }
-    .Header-h1{
+    .Header-h1 {
         padding-bottom: 10px;
     }
     .Slider-div {
@@ -404,11 +403,11 @@ body::-webkit-scrollbar-thumb {
     .home-context {
         margin-bottom: 40px;
     }
-    .Emotes-img{
+    .Emotes-img {
         height: 250px;
         margin: 10px 0 10px 0;
     }
-    .Emotes-img img{
+    .Emotes-img img {
         width: 250px;
     }
     .information {
@@ -459,11 +458,11 @@ body::-webkit-scrollbar-thumb {
     .holder-content {
         width: 97%;
     }
-    .prices-content .Content{
+    .prices-content .Content {
         border-bottom: none;
         padding-bottom: 0px;
     }
-    .prices-content .Content-2{
+    .prices-content .Content-2 {
         padding-top: 0px;
     }
     .cat-illu {
@@ -477,5 +476,66 @@ body::-webkit-scrollbar-thumb {
     }
     .Socials ul {
         width: 17vw;
+    }
+    .Link-1:hover:after {
+        width: 0px;
+        left: 0;
+    }
+    .Link-2:hover:after {
+        width: 0px;
+        left: 0;
+    }
+    .Link-3:hover:after {
+        width: 0px;
+        left: 0;
+    }
+    .Link-5:hover:after {
+        width: 0px;
+        left: 0;
+    }
+    .Link-6:hover:after {
+        width: 0px;
+        left: 0;
+    }
+    .Link-4:hover:after {
+        width: 0px;
+        left: 0;
+    }
+}
+
+@media (max-width: 414.98px) {
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 4vh 3vw 1vh 5vw;
+        width: 100vw;
+    }
+    .nav-links {
+        position: initial;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: unset;
+        align-content: flex-start;
+        padding-top: 1vh;
+    }
+    .nav-links li {
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+    .Slider-div {
+        padding-bottom: 0;
+        height: 300px;
+    }
+    .information {
+        width: 90%;
+    }
+    .Content, .Content-2 {
+        width: 90vw;
+    }
+    .cat-illu {
+        width: 360px;
+    }
+    .Socials ul {
+        width: 19vw;
     }
 }
