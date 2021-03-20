@@ -75,15 +75,12 @@ img {
     .Right, .Left {
         top: 33.5vh;
     }
-
     .Right {
         left: 51vw;
     }
-
     .Left {
         left: 40vw;
     }
-
     img {
         max-width: 95vw;
     }
