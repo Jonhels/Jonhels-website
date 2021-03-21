@@ -522,12 +522,8 @@ body::-webkit-scrollbar-thumb {
         padding-top: 10px;
         padding-right: 10px;
     }
-    .Slider-div {
-        padding-bottom: 0;
-        height: 300px;
-    }
     .information {
-        width: 90%;
+        width: 87%;
     }
     .Content, .Content-2 {
         width: 90vw;
