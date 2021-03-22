@@ -79,7 +79,7 @@ img {
         right: 0vw;
     }
     .Left {
-        left: 0vw;
+        left: 0;
     }
     img {
         max-width: 84vw;
@@ -87,4 +87,14 @@ img {
     .Slider {
         height: 28vh;
     }
+}
+
+@media (max-width: 375.98px){
+    .Right {
+        left: 90vw;
+    }
+    .Left img {
+        left: 1.5vw;
+    }
+
 }
