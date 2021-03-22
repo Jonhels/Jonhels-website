@@ -535,3 +535,7 @@ body::-webkit-scrollbar-thumb {
         width: 19vw;
     }
 }
+
+@media (max-width: 375.98px){
+
+}
