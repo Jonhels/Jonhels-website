@@ -562,3 +562,12 @@ body::-webkit-scrollbar-thumb {
         width: 22vw;
     }
 }
+
+@media (max-width: 320.98px) {
+    .Socials {
+        width: 93vw;
+    }
+    .Socials ul {
+        width: 25vw;
+    }
+}

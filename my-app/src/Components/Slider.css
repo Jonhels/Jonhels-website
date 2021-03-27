@@ -105,3 +105,18 @@ img {
         left: 2vw;
     }
 }
+
+@media (max-width: 320.98px) {
+    img {
+        max-width: 86vw;
+    }
+    .Right {
+        left: 89.5vw;
+    }
+    .Left img {
+        left: 1vw;
+    }
+    .Slider {
+        height: 35vh;
+    }
+}
