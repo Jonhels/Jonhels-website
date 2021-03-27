@@ -531,11 +531,25 @@ body::-webkit-scrollbar-thumb {
     .cat-illu {
         width: 360px;
     }
+    .Socials {
+        width: 94vw;
+    }
     .Socials ul {
         width: 19vw;
     }
 }
 
-@media (max-width: 375.98px){
-
+@media (max-width: 375.98px) {
+    nav {
+        padding: 4vh 3vw 3vh 5vw;
+    }
+    .Content, .Content-2 {
+        width: 92vw;
+    }
+    .Socials {
+        width: 93vw;
+    }
+    .Socials ul {
+        width: 21vw;
+    }
 }

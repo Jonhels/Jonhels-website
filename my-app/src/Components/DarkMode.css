@@ -131,7 +131,13 @@ input[type="checkbox"].checkbox+label {
 
 @media (max-width: 414.98px) {
     .toggle-container {
-        padding-right: 20vw;
+        padding-right: 21vw;
         padding-left: 0vw;
+    }
+}
+
+@media (max-width: 375.98px) {
+    .toggle-container {
+        padding-right: 23vw;
     }
 }
