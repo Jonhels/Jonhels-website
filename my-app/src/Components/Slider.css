@@ -96,3 +96,12 @@ img {
         left: 1.5vw;
     }
 }
+
+@media (max-width: 360.98px) {
+    .Right {
+        left: 89.5vw;
+    }
+    .Left img {
+        left: 2vw;
+    }
+}
