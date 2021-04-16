@@ -17,7 +17,7 @@ function Home() {
       </div>
       <div className="home-context">
         <div className="information">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quibusdam ipsa natus corrupti minus eos porro amet, labore hic, blanditiis harum quidem cupiditate ipsam nam ad voluptatibus nesciunt sequi perspiciatis!Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quibusdam ipsa natus corrupti minus eos porro amet, labore hic, blanditiis harum quidem cupiditate ipsam nam ad voluptatibus nesciunt sequi perspiciatis!</p>
+          <p>This is a preveiw website for my clients. This means that all information on this website and design is owned by Jonhels. The information on this website is written in lorem ipsum. The pictures are owned by the website owner.</p>
           <a href="#">Contact</a>
         </div>
       </div>
