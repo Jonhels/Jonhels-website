@@ -313,6 +313,30 @@ body::-webkit-scrollbar-thumb {
     .Socials ul {
         width: 8vw;
     }
+    .Link-1:hover:after {
+        width: 0px;
+        left: 0;
+    }
+    .Link-2:hover:after {
+        width: 0px;
+        left: 0;
+    }
+    .Link-3:hover:after {
+        width: 0px;
+        left: 0;
+    }
+    .Link-5:hover:after {
+        width: 0px;
+        left: 0;
+    }
+    .Link-6:hover:after {
+        width: 0px;
+        left: 0;
+    }
+    .Link-4:hover:after {
+        width: 0px;
+        left: 0;
+    }
 }
 
 @media (max-width: 834.98px) {
@@ -476,30 +500,6 @@ body::-webkit-scrollbar-thumb {
     }
     .Socials ul {
         width: 17vw;
-    }
-    .Link-1:hover:after {
-        width: 0px;
-        left: 0;
-    }
-    .Link-2:hover:after {
-        width: 0px;
-        left: 0;
-    }
-    .Link-3:hover:after {
-        width: 0px;
-        left: 0;
-    }
-    .Link-5:hover:after {
-        width: 0px;
-        left: 0;
-    }
-    .Link-6:hover:after {
-        width: 0px;
-        left: 0;
-    }
-    .Link-4:hover:after {
-        width: 0px;
-        left: 0;
     }
 }
 
