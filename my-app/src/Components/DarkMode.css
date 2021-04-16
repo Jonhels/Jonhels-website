@@ -101,7 +101,7 @@ input[type="checkbox"].checkbox+label {
 @media (max-width: 1024.98px) {
     .toggle-container {
         position: relative;
-        left: 3.2vw;
+        left: 44vw;
         bottom: 5vh;
     }
 }
@@ -109,29 +109,30 @@ input[type="checkbox"].checkbox+label {
 @media (max-width: 834.98px) {
     .toggle-container {
         position: relative;
-        left: 2.6vw;
+        left: 43.5vw;
         padding-bottom: 30px;
     }
 }
 
 @media (max-width: 768.98px) {
     .toggle-container {
-        position: relative;
-        left: 1.5vw;
+        left: 42.7vw;
         bottom: 5vh;
     }
 }
 
 @media (max-width: 480.98px) {
     .toggle-container {
-        position: initial;
+        position: relative;
+        top: 1vh;
+        left: 40vw;
         padding-left: 21.7vw;
     }
 }
 
 @media (max-width: 414.98px) {
     .toggle-container {
-        padding-right: 21vw;
+        padding-right: 24vw;
         padding-left: 0vw;
     }
 }
