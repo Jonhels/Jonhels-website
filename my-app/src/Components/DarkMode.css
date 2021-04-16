@@ -126,31 +126,19 @@ input[type="checkbox"].checkbox+label {
         position: relative;
         top: 1vh;
         left: 40vw;
-        padding-left: 21.7vw;
+        padding-left: 20.5vw;
     }
 }
 
 @media (max-width: 414.98px) {
     .toggle-container {
-        padding-right: 24vw;
-        padding-left: 0vw;
-    }
-}
-
-@media (max-width: 375.98px) {
-    .toggle-container {
-        padding-right: 23vw;
-    }
-}
-
-@media (max-width: 360.98px) {
-    .toggle-container {
-        padding-right: 24vw;
+        left: 27vw;
+        padding-left: 0;
     }
 }
 
 @media (max-width: 320.98px) {
     .toggle-container {
-        padding-right: 27vw;
+        left: 25vw;
     }
 }
