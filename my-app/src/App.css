@@ -339,6 +339,19 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
+@media (max-width: 855.98px) {
+    nav ul {
+        position: relative;
+        right: 56px;
+    }
+    .cat-illu {
+        width: 300px;
+    }
+    .Socials ul {
+        width: 9vw;
+    }
+}
+
 @media (max-width: 834.98px) {
     nav ul {
         position: relative;
@@ -406,6 +419,15 @@ body::-webkit-scrollbar-thumb {
     }
     .Socials ul {
         width: 9.8vw;
+    }
+}
+
+@media (max-width: 672.98px) {
+    .cat-illu {
+        width: 260px;
+    }
+    .Socials ul {
+        width: 12vw;
     }
 }
 
