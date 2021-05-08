@@ -35,7 +35,7 @@ nav {
 }
 
 .logo-bottom {
-    color: #ffcdea;
+    color: #ffb1df;
     font-size: 20px;
 }
 
@@ -46,7 +46,7 @@ nav {
 }
 
 .nav-links a {
-    color: #ffcdea;
+    color: #ffb1df;
     text-transform: uppercase;
     text-decoration: none;
     position: relative;
@@ -57,7 +57,7 @@ nav {
     display: inline-block;
     width: 0;
     height: 1px;
-    background: #ffcdea;
+    background: #ffb1df;
     position: absolute;
     left: 0px;
     bottom: 0px;
@@ -128,9 +128,9 @@ nav {
 }
 
 .information a {
-    border: 1px solid #ffcdea;
+    border: 1px solid #ffb1df;
     border-radius: 5px 5px;
-    color: #ffcdea;
+    color: #ffb1df;
     text-decoration: none;
     text-transform: uppercase;
     padding: 8px 20px;
@@ -149,14 +149,14 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid #ffcdea;
+    border-bottom: 1px solid #ffb1df;
     width: 60vw;
     height: auto;
     padding: 60px 0 60px 0;
 }
 
 .Content {
-    border-top: 1px solid #ffcdea;
+    border-top: 1px solid #ffb1df;
 }
 
 .Emotes-holder {
@@ -165,7 +165,7 @@ nav {
     justify-content: center;
     height: 280px;
     width: 50%;
-    border-right: 1px solid #ffcdea;
+    border-right: 1px solid #ffb1df;
 }
 
 .holder-content {
@@ -247,7 +247,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #ffcdea;
+    background-color: #ffb1df;
     border-radius: 20px;
 }
 
