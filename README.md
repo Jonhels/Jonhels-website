@@ -1,3 +1,3 @@
-# Allround-preview
+# Jonhels
 
-Just a small website I made for practicing my react skills.
+A website I coded in react and designed in figma as a part of my portfolio.
